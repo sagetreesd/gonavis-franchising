@@ -1,0 +1,14 @@
+uuid: f71bc4c3-e65c-4eb0-85f0-6d9948423b90
+name: gonavis-franchising
+mail: john@sagetree.net
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
