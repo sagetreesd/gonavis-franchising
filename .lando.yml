@@ -1,0 +1,15 @@
+name: gonavis-franchise
+recipe: pantheon
+config:
+  framework: drupal8
+  site: gonavis-franchise
+  id: 621cd324-f8b0-4835-a756-bdabb6f17300
+tooling:
+  drupal:
+    cmd:
+      - "/app/vendor/bin/drupal"
+      - "--root=/app/web"
+  drush:
+    cmd:
+      - "/app/vendor/bin/drush"
+      - "--root=/app/web"
