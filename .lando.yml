@@ -1,9 +1,9 @@
-name: gonavis-franchise
+name: gonavis-franchising
 recipe: pantheon
 config:
   framework: drupal8
-  site: gonavis-franchise
-  id: 621cd324-f8b0-4835-a756-bdabb6f17300
+  site: gonavis-franchising
+  id: bd2040d9-444e-4c2e-ad13-fd575701973a
 tooling:
   drupal:
     cmd:

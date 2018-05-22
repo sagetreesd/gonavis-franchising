@@ -1,10 +1,10 @@
-uuid: 491a148f-ef25-41f8-b6a8-879c2a3d1a88
+uuid: 39f54120-97c6-4cdf-8d9d-21c8f2c90629
 langcode: en
 status: true
 dependencies: {  }
 machine: lando
 description: null
 name: Lando
-url: 'https://gonavisfranchise.lndo.site'
+url: 'https://gonavisfranchising.lndo.site/'
 fg_color: '#ffffff'
-bg_color: '#0d8baf'
+bg_color: '#0da293'

@@ -1,0 +1,10 @@
+uuid: 450ef219-350a-4f87-99a9-bcd438a3c79e
+langcode: en
+status: true
+dependencies: {  }
+machine: development
+description: null
+name: Development
+url: 'http://dev-gonavis-franchising.pantheonsite.io/'
+fg_color: '#ffffff'
+bg_color: '#940004'
