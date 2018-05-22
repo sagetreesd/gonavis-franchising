@@ -1,0 +1,10 @@
+uuid: 37bfd19a-e32c-401c-b644-46c1758d9b1d
+langcode: en
+status: true
+dependencies: {  }
+machine: test
+description: null
+name: Test
+url: 'http://test-gonavis-franchise.pantheonsite.io/'
+fg_color: '#ffffff'
+bg_color: '#dda464'
