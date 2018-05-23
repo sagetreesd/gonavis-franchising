@@ -1,0 +1,11 @@
+uuid: d2aca7db-f6c1-4eda-b1a1-cb9d32c7c1ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: phone_block
+title: Phone
+content:
+  value: '<a href="tel:1-866-738-6820">(866) 738-6820'
+  format: basic_html

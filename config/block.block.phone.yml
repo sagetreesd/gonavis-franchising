@@ -1,0 +1,22 @@
+uuid: c5f91a7f-8248-472c-91be-b03cbee9ef31
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.phone_block
+  module:
+    - simple_block
+  theme:
+    - bartik
+id: phone
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'simple_block:phone_block'
+settings:
+  id: 'simple_block:phone_block'
+  label: Phone
+  provider: simple_block
+  label_display: '0'
+visibility: {  }
