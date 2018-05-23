@@ -1,0 +1,22 @@
+uuid: ff14ba9b-1c68-41ad-b84b-95e0585d919d
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.copyright
+  module:
+    - simple_block
+  theme:
+    - bartik
+id: copyright
+theme: bartik
+region: footer_third
+weight: 0
+provider: null
+plugin: 'simple_block:copyright'
+settings:
+  id: 'simple_block:copyright'
+  label: Copyright
+  provider: simple_block
+  label_display: '0'
+visibility: {  }

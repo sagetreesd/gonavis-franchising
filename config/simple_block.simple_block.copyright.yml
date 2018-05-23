@@ -1,0 +1,11 @@
+uuid: ba8a0c95-8078-4be5-bc66-6e5d6a571e5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: copyright
+title: Copyright
+content:
+  value: "<p>Each location is an independently owned and operated franchise.</p>\r\n\r\n<p>Copyright 2018 Navis Pack &amp; Ship</p>\r\n"
+  format: basic_html

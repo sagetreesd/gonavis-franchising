@@ -1,0 +1,11 @@
+uuid: 07405ac7-9227-4ecf-b19c-3190281ec6d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+id: ready_to_start_franchise
+title: 'Ready to Start a Franchise'
+content:
+  value: "<p>Ready to Start a Franchise? - Call Us <a href=\"tel:1-866-738-6820\">866-738-6820</a></p>\r\n"
+  format: basic_html

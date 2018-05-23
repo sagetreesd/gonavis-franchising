@@ -1,0 +1,22 @@
+uuid: 9ffcafc0-868b-408f-87b1-bb4952ce7e29
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.ready_to_start_franchise
+  module:
+    - simple_block
+  theme:
+    - bartik
+id: readytostartafranchise_2
+theme: bartik
+region: footer_second
+weight: 0
+provider: null
+plugin: 'simple_block:ready_to_start_franchise'
+settings:
+  id: 'simple_block:ready_to_start_franchise'
+  label: 'Ready to Start a Franchise'
+  provider: simple_block
+  label_display: '0'
+visibility: {  }
