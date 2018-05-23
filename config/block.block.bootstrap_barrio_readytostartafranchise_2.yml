@@ -1,0 +1,22 @@
+uuid: c4970d26-688a-46e6-aec2-c7a953b05e2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.ready_to_start_franchise
+  module:
+    - simple_block
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_readytostartafranchise_2
+theme: bootstrap_barrio
+region: footer_second
+weight: 0
+provider: null
+plugin: 'simple_block:ready_to_start_franchise'
+settings:
+  id: 'simple_block:ready_to_start_franchise'
+  label: 'Ready to Start a Franchise'
+  provider: simple_block
+  label_display: '0'
+visibility: {  }

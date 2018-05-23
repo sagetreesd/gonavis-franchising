@@ -15,6 +15,8 @@
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/admin_toolbar": "^1.23",
+        "drupal/bootstrap_barrio": "^4.10",
+        "drupal/bootstrap_library": "^1.11",
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",

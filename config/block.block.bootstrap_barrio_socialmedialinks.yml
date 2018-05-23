@@ -1,0 +1,112 @@
+uuid: 16e3ef09-7283-4a41-9598-12583ed730d3
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_socialmedialinks
+theme: bootstrap_barrio
+region: content
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    facebook:
+      value: 'https://www.facebook.com/home.php?#!/pages/Navis-Pack-Ship/118162374885104?ref=ts'
+      description: ''
+      weight: '-30'
+    youtube:
+      value: 'https://www.youtube.com/watch?v=yczL_8ErNA8'
+      description: ''
+      weight: '-29'
+    linkedin:
+      value: 'https://www.linkedin.com/company/navis-pack-&-ship?trk=top_nav_home'
+      description: ''
+      weight: '-28'
+    rss:
+      value: ''
+      description: ''
+      weight: '-27'
+    email:
+      value: ''
+      description: ''
+      weight: '-26'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-25'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-24'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-23'
+    github:
+      value: ''
+      description: ''
+      weight: '-22'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-21'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-20'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-19'
+    contact:
+      value: ''
+      description: ''
+      weight: '-18'
+    behance:
+      value: ''
+      description: ''
+      weight: '-17'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-16'
+    twitter:
+      value: ''
+      description: ''
+      weight: '-15'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-14'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-13'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-12'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:5x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

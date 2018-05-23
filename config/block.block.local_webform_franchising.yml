@@ -1,0 +1,30 @@
+uuid: 9bb370a7-d322-4854-9d83-10c5e12024a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.franchising_information_apply_no
+  module:
+    - system
+    - webform
+  theme:
+    - local
+id: local_webform_franchising
+theme: local
+region: sidebar_second
+weight: -5
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Franchising Information - Apply Now'
+  provider: webform
+  label_display: visible
+  webform_id: franchising_information_apply_no
+  default_data: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /apply
+    negate: true
+    context_mapping: {  }
