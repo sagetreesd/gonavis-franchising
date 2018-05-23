@@ -106,3 +106,6 @@ Thumbs.db
 
 # IDE
 .vscode
+
+# Environment Indicator - Ignore environment-specific color configurations.
+config/environment_indicator.indicator.yml
