@@ -10,8 +10,8 @@ dependencies:
     - local
 id: local_phone
 theme: local
-region: header
-weight: 0
+region: top_header
+weight: -7
 provider: null
 plugin: 'simple_block:phone_block'
 settings:

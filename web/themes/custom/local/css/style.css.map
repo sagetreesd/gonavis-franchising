@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;ACHH;;;GAGG;ACHH;;;GAGG;ACHH;;;GAGG;AAGH,AAAA,kBAAkB,CAAC;EACjB,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,IAAI;CACZ;;AACD,AAAc,aAAD,CAAC,GAAG,CAAC;EAChB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_default-variables.scss",
+        "../scss/_breakpoints.scss",
+        "../scss/_header.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
