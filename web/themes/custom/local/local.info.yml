@@ -1,6 +1,6 @@
 name: Local
 type: theme
-description: 'Local, a Bootstrap Barrio SubTheme.'
+description: 'Local, a Custom Bootstrap Barrio subtheme by Sage Tree Solutions.'
 # version: VERSION
 # core: 8.x
 base theme: bootstrap_barrio
