@@ -42,3 +42,8 @@ $screen-sm-max:              ($screen-md-min - 1) !default;
 $screen-md-max:              ($screen-lg-min - 1) !default;
 
 $grid-float-breakpoint:     $screen-lg-min !default;
+
+// Background colors
+$theme-colors: (
+  "primary": $primary_color,
+);
