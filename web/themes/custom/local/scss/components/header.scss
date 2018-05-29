@@ -15,18 +15,22 @@
 
 #navbar-top.navbar-dark .nav-link:hover,
 #navbar-top.navbar-dark .nav-link:focus {
-    background-color: #fff;
+    background-color: $white;
     color: $dark-gray;
 }
 
 #navbar-top.navbar-dark .nav-link {
-    color: #fff;
+    color: $white;
 }
 
-#navbar-top.navbar-dark .dropdown-menu .dropdown-item:hover,
-#navbar-top.navbar-dark .dropdown-menu .dropdown-item:focus {
-    a {
-        color: #fff;
+#navbar-main.navbar-dark .dropdown-menu .dropdown-item {
+    border-bottom: 1px solid $white;
+    &:hover,
+    &:focus {
+        background-color: $gray;
+        a {
+            color: $white;
+        }
     }
 }
 
@@ -43,12 +47,19 @@
     margin-right: 1rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: $white;
 }
+
 .dropdown-menu {
     background-color: $dark-gray;
     a {
-        color: #fff;
+        color: $white;
+    }
+
+    @media (min-width: 992px) {
+        column-count: 2;
+        margin-top: 7px;
+        padding: 0;
     }
 }
 

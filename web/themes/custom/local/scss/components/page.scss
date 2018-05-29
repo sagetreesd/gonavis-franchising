@@ -4,5 +4,11 @@
  */
 
 #main {
-    margin-top: $spacer;
+    background-color: $white;
+    margin-top: 0;
+    padding-top: $spacer;
+}
+
+.featured-bottom .container {
+    background-color: $white;
 }

@@ -6613,9 +6613,12 @@ summary {
 #navbar-top.navbar-dark .nav-link {
   color: #fff; }
 
-#navbar-top.navbar-dark .dropdown-menu .dropdown-item:hover a,
-#navbar-top.navbar-dark .dropdown-menu .dropdown-item:focus a {
-  color: #fff; }
+#navbar-main.navbar-dark .dropdown-menu .dropdown-item {
+  border-bottom: 1px solid #fff; }
+  #navbar-main.navbar-dark .dropdown-menu .dropdown-item:hover, #navbar-main.navbar-dark .dropdown-menu .dropdown-item:focus {
+    background-color: #4a4a4a; }
+    #navbar-main.navbar-dark .dropdown-menu .dropdown-item:hover a, #navbar-main.navbar-dark .dropdown-menu .dropdown-item:focus a {
+      color: #fff; }
 
 #navbar-top.navbar-light .nav-link:hover,
 #navbar-top.navbar-light .nav-link:focus {
@@ -6634,6 +6637,11 @@ summary {
   background-color: #333; }
   .dropdown-menu a {
     color: #fff; }
+  @media (min-width: 992px) {
+    .dropdown-menu {
+      column-count: 2;
+      margin-top: 7px;
+      padding: 0; } }
 
 @media (max-width: 33.9em) {
   .navbar-toggleable-xs .navbar-nav .nav-item + .nav-item,
@@ -6879,7 +6887,12 @@ summary {
  * Styles for Bootstrap Barrio page.
  */
 #main {
-  margin-top: 1rem; }
+  background-color: #fff;
+  margin-top: 0;
+  padding-top: 1rem; }
+
+.featured-bottom .container {
+  background-color: #fff; }
 
 /**
  * @file
@@ -6978,6 +6991,7 @@ input[type="search"] {
  * Footer Styling.
  */
 .site-footer {
+  background-color: #4a4a4a !important;
   padding: 1rem 0; }
   .site-footer .layout-container {
     padding: 0 1rem; }
@@ -7695,7 +7709,7 @@ nav.tabs {
 /* GENERAL STYLES
 -------------------------------------------------*/
 body {
-  background: #fff; }
+  background: #333; }
 
 /* COLORS 
 --------------------------------------------------*/
