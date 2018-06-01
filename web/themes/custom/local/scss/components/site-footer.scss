@@ -8,12 +8,38 @@
     .layout-container {
         padding: 0 $spacer;
     }
+
+    .navbar-nav {
+        display: block;
+        text-align: center;
+
+        .nav-item {
+            display: inline-block;
+            padding: 0 0 10px 5px;
+
+            &:first-child {
+                padding-left: 0;
+                a {
+                    padding-left: 0;
+                }
+            }
+            a {
+                display: inline-block;
+                padding: 0 10px;
+            }
+        }
+    }
 }
 
 
 /* Footer Top Styling. */
-.site-footer__top > .region > .contextual-region {
+.site-footer__top > .region > .block {
     margin: 0 auto;
+
+    &.navigation {
+        padding-bottom: 25px;
+        width: 100%;
+    }
 
     .content {
         text-align: center;
@@ -22,6 +48,10 @@
 
 .site-footer__top .content {
     margin-top: 0;
+
+    p {
+        margin-bottom: 0.5rem;
+    }
 }
 
 

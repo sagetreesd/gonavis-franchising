@@ -15,4 +15,19 @@
 
 #content > .section {
     padding: 15px;
+
+    .block-social-media-links {
+        margin-top: 50px;
+    }
+    .social-media-links--platforms {
+        text-align: center;
+    }
+    .fa-5x {
+        font-size: 2rem;
+        background-color: $accent-secondary;
+        padding: 0.5rem;
+        width: 4rem;
+        color: $white;
+        border-radius: 5%;
+    }
 }
