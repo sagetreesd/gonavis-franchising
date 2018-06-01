@@ -6916,8 +6916,30 @@ summary {
 
 #content > .section {
   padding: 15px; }
+  #content > .section .field--name-body {
+    margin-bottom: 100px; }
+  #content > .section .field--type-entity-reference {
+    margin: 0;
+    background-color: #3898c6;
+    padding: 0.75rem;
+    border-radius: 5%; }
+    #content > .section .field--type-entity-reference a {
+      color: #fff; }
+      #content > .section .field--type-entity-reference a:hover {
+        text-decoration: none; }
+  #content > .section .field--name-field-previous a:before {
+    content: '\f060';
+    display: inline-block;
+    font-family: FontAwesome;
+    padding-right: 15px; }
+  #content > .section .field--name-field-next a:after {
+    content: '\f061';
+    display: inline-block;
+    font-family: FontAwesome;
+    padding-left: 15px; }
   #content > .section .block-social-media-links {
-    margin-top: 50px; }
+    margin: -50px auto 0;
+    width: 15rem; }
   #content > .section .social-media-links--platforms {
     text-align: center; }
   #content > .section .fa-5x {

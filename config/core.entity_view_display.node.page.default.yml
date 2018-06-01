@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_next
+    - field.field.node.page.field_previous
     - node.type.page
   module:
+    - field_formatter_class
     - text
     - user
 _core:
@@ -22,7 +25,29 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_next:
+    weight: 103
+    label: hidden
+    settings:
+      link: true
+    third_party_settings:
+      field_formatter_class:
+        class: float-right
+    type: entity_reference_label
+    region: content
+  field_previous:
+    weight: 102
+    label: hidden
+    settings:
+      link: true
+    third_party_settings:
+      field_formatter_class:
+        class: float-left
+    type: entity_reference_label
+    region: content
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden: {  }
