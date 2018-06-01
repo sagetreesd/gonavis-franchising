@@ -4,7 +4,6 @@
  */
 
 .site-footer {
-    background-color: $gray !important;
     padding: $spacer 0;
     .layout-container {
         padding: 0 $spacer;
@@ -13,6 +12,13 @@
 
 
 /* Footer Top Styling. */
+.site-footer__top > .region > .contextual-region {
+    margin: 0 auto;
+
+    .content {
+        text-align: center;
+    }
+}
 
 .site-footer__top .content {
     margin-top: 0;

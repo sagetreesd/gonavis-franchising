@@ -29,7 +29,11 @@ a {
 }
 
 .site-footer {
-    background: $accent-shade !important;
+    background: $accent-secondary !important;
+    &,
+    a {
+        color: $white;
+    }
 }
 
 .menu--main li a {
