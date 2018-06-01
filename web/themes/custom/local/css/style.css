@@ -6894,6 +6894,9 @@ summary {
 .featured-bottom .container {
   background-color: #fff; }
 
+#content > .section {
+  padding: 15px; }
+
 /**
  * @file
  * The visual styles for Bootstrap Barrio's search form(s).

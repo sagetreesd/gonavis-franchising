@@ -3,9 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.basic_html
+    - filter.format.full_html
 id: phone_block
 title: Phone
 content:
-  value: '<a href="tel:1-866-738-6820">(866) 738-6820'
-  format: basic_html
+  value: "<p><a href=\"tel:1-866-964-3142\" class=\"phone-number\">(866) 964-3142</a></p>\r\n"
+  format: full_html
