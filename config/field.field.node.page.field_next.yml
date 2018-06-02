@@ -10,7 +10,7 @@ field_name: field_next
 entity_type: node
 bundle: page
 label: Next
-description: 'Page that will be linked to the "Next" button.'
+description: 'Page that the "Next" button will link to.'
 required: false
 translatable: false
 default_value: {  }
