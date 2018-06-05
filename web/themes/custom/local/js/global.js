@@ -9,11 +9,15 @@
 
   Drupal.behaviors.bootstrap_barrio_subtheme = {
     attach: function (context, settings) {
-      $('body').on('mouseenter mouseleave', '.dropdown', function (e) {
-        var _d = $(e.target).closest('.dropdown'); _d.addClass('show');
+      $('.dropdown').on('mouseenter mouseleave', function (e) {
+        var dropdown = $(this);
+        var _d = dropdown.find('.dropdown-toggle-split');
+        var _dm = dropdown.find('.dropdown-menu');
+        var hover = $(this).is(':hover');
         setTimeout(function () {
-          _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
-          $('[data-hover="dropdown"]', _d).attr('aria-expanded', _d.is(':hover'));
+          dropdown[hover ? 'addClass' : 'removeClass']('show');
+          _d.attr('aria-expanded', hover);
+          _dm[hover ? 'addClass' : 'removeClass']('show');
         }, 300);
       });
     }
