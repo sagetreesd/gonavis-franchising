@@ -8,8 +8,8 @@ dependencies:
     - local
 id: local_socialmedialinks
 theme: local
-region: content
-weight: 0
+region: featured_bottom_second
+weight: -6
 provider: null
 plugin: social_media_links_block
 settings:

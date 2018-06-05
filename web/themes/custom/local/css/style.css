@@ -6927,9 +6927,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   margin-top: 0;
   padding-top: 1rem; }
 
-.featured-bottom .container {
-  background-color: #fff; }
-
 #content > .section {
   padding: 15px; }
   #content > .section .field--name-body {
@@ -6960,18 +6957,32 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       display: inline-block;
       font-family: FontAwesome;
       padding-left: 15px; }
-  #content > .section .block-social-media-links {
-    margin: 50px auto;
-    width: 15rem; }
-  #content > .section .social-media-links--platforms {
+
+.block-simple-blockready-to-start-franchise {
+  margin: 0 auto; }
+
+.block-social-media-links {
+  margin: 0 auto;
+  width: 15rem; }
+  .block-social-media-links .social-media-links--platforms {
     text-align: center; }
-  #content > .section .fa-5x {
+  .block-social-media-links .fa-5x {
     font-size: 2rem;
     background-color: #4a4a4a;
     padding: 0.5rem;
     width: 4rem;
     color: #fff;
     border-radius: 5%; }
+
+.featured-bottom .region {
+  background-color: #fff; }
+
+.featured-bottom .region-featured-bottom-third {
+  background-color: #3898c6;
+  color: #fff;
+  padding: 15px 0 0; }
+  .featured-bottom .region-featured-bottom-third a {
+    color: #fff; }
 
 /**
  * @file
