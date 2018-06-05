@@ -15,42 +15,89 @@
     .field--name-body {
         margin-bottom: 50px;
     }
-    .field--type-entity-reference {
-        margin: 0;
-        .field__item {
+}
+
+.region-featured-bottom-first {
+    justify-content: space-between;
+
+    h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .block {
+        padding: 0 30px 30px;
+        margin: 0 auto;
+        
+        h2 {
+            text-align: center;
+        }
+        
+        @media screen and (min-width: 768px) {
             margin: 0;
-            background-color: $accent-shade;
-            padding: 0.75rem;
-            border-radius: 5%;
 
-            a {
-                color: $white;
-
-                &:hover {
-                    text-decoration: none;
-                }
+            h2 {
+                text-align: left;
             }
+            
+            &:last-child h2 {
+                text-align: right;
+            }
+        }
 
-            @media screen and (max-width: 575px) {
-                max-width: 150px;
+        .field--type-entity-reference a {
+            background-color: $accent-shade;
+            border-radius: 5px;
+            color: #fff;
+            display: inline-block;
+            padding: 15px;
+
+            &:hover {
+                text-decoration: none;
             }
         }
     }
-    .field--name-field-previous a:before {
+}
+
+.field--type-entity-reference {
+    margin: 0;
+    .field__item {
+        margin: 0;
+        background-color: $accent-shade;
+        padding: 0.75rem;
+        border-radius: 5%;
+
+        a {
+            color: $white;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        @media screen and (max-width: 575px) {
+            max-width: 150px;
+        }
+    }
+}
+.field--name-field-previous {
+    float: left;
+
+    a:before {
         content: '\f060';
         display: inline-block;
         font-family: FontAwesome;
         padding-right: 15px;
     }
-    .field--name-field-next {
-        text-align: right;
+}
+.field--name-field-next {
+    float: right;
 
-        a:after {
-            content: '\f061';
-            display: inline-block;
-            font-family: FontAwesome;
-            padding-left: 15px;
-        }
+    a:after {
+        content: '\f061';
+        display: inline-block;
+        font-family: FontAwesome;
+        padding-left: 15px;
     }
 }
 

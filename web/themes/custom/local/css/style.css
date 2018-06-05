@@ -6931,32 +6931,62 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   padding: 15px; }
   #content > .section .field--name-body {
     margin-bottom: 50px; }
-  #content > .section .field--type-entity-reference {
-    margin: 0; }
-    #content > .section .field--type-entity-reference .field__item {
-      margin: 0;
+
+.region-featured-bottom-first {
+  justify-content: space-between; }
+  .region-featured-bottom-first h2 {
+    font-size: 1.5rem; }
+  .region-featured-bottom-first .block {
+    padding: 0 30px 30px;
+    margin: 0 auto; }
+    .region-featured-bottom-first .block h2 {
+      text-align: center; }
+    @media screen and (min-width: 768px) {
+      .region-featured-bottom-first .block {
+        margin: 0; }
+        .region-featured-bottom-first .block h2 {
+          text-align: left; }
+        .region-featured-bottom-first .block:last-child h2 {
+          text-align: right; } }
+    .region-featured-bottom-first .block .field--type-entity-reference a {
       background-color: #3898c6;
-      padding: 0.75rem;
-      border-radius: 5%; }
-      #content > .section .field--type-entity-reference .field__item a {
-        color: #fff; }
-        #content > .section .field--type-entity-reference .field__item a:hover {
-          text-decoration: none; }
-      @media screen and (max-width: 575px) {
-        #content > .section .field--type-entity-reference .field__item {
-          max-width: 150px; } }
-  #content > .section .field--name-field-previous a:before {
+      border-radius: 5px;
+      color: #fff;
+      display: inline-block;
+      padding: 15px; }
+      .region-featured-bottom-first .block .field--type-entity-reference a:hover {
+        text-decoration: none; }
+
+.field--type-entity-reference {
+  margin: 0; }
+  .field--type-entity-reference .field__item {
+    margin: 0;
+    background-color: #3898c6;
+    padding: 0.75rem;
+    border-radius: 5%; }
+    .field--type-entity-reference .field__item a {
+      color: #fff; }
+      .field--type-entity-reference .field__item a:hover {
+        text-decoration: none; }
+    @media screen and (max-width: 575px) {
+      .field--type-entity-reference .field__item {
+        max-width: 150px; } }
+
+.field--name-field-previous {
+  float: left; }
+  .field--name-field-previous a:before {
     content: '\f060';
     display: inline-block;
     font-family: FontAwesome;
     padding-right: 15px; }
-  #content > .section .field--name-field-next {
-    text-align: right; }
-    #content > .section .field--name-field-next a:after {
-      content: '\f061';
-      display: inline-block;
-      font-family: FontAwesome;
-      padding-left: 15px; }
+
+.field--name-field-next {
+  float: right; }
+  .field--name-field-next a:after {
+    content: '\f061';
+    display: inline-block;
+    font-family: FontAwesome;
+    padding-left: 15px; }
 
 .block-simple-blockready-to-start-franchise {
   margin: 0 auto; }
