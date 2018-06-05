@@ -9,7 +9,7 @@ id: node.page.field_next
 field_name: field_next
 entity_type: node
 bundle: page
-label: Next
+label: 'Next Topic'
 description: 'Page that the "Next" button will link to.'
 required: false
 translatable: false

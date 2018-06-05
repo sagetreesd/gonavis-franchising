@@ -19,15 +19,15 @@ settings:
   label_display: '0'
   platforms:
     facebook:
-      value: 'https://www.facebook.com/home.php?#!/pages/Navis-Pack-Ship/118162374885104?ref=ts'
+      value: 'home.php?#!/pages/Navis-Pack-Ship/118162374885104?ref=ts'
       description: ''
       weight: '-30'
     youtube:
-      value: 'https://www.youtube.com/watch?v=yczL_8ErNA8'
+      value: 'watch?v=yczL_8ErNA8'
       description: ''
       weight: '-29'
     linkedin:
-      value: 'https://www.linkedin.com/company/navis-pack-&-ship?trk=top_nav_home'
+      value: 'company/navis-pack-&-ship?trk=top_nav_home'
       description: ''
       weight: '-28'
     rss:
@@ -102,7 +102,7 @@ settings:
     orientation: h
     show_name: 0
   link_attributes:
-    target: '<none>'
+    target: _blank
     rel: '<none>'
   iconset:
     style: 'fontawesome:5x'

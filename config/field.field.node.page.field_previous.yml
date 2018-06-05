@@ -9,7 +9,7 @@ id: node.page.field_previous
 field_name: field_previous
 entity_type: node
 bundle: page
-label: Previous
+label: 'Previous Topic'
 description: 'Page that the "Previous" button will link to.'
 required: false
 translatable: false

@@ -6639,6 +6639,9 @@ summary {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff; }
 
+#navbar-main .dropdown-menu .dropdown-item {
+  padding: 10px 25px; }
+
 @media (min-width: 992px) {
   .navbar {
     padding: 0; }
@@ -6917,28 +6920,35 @@ summary {
 #content > .section {
   padding: 15px; }
   #content > .section .field--name-body {
-    margin-bottom: 100px; }
+    margin-bottom: 50px; }
   #content > .section .field--type-entity-reference {
-    margin: 0;
-    background-color: #3898c6;
-    padding: 0.75rem;
-    border-radius: 5%; }
-    #content > .section .field--type-entity-reference a {
-      color: #fff; }
-      #content > .section .field--type-entity-reference a:hover {
-        text-decoration: none; }
+    margin: 0; }
+    #content > .section .field--type-entity-reference .field__item {
+      margin: 0;
+      background-color: #3898c6;
+      padding: 0.75rem;
+      border-radius: 5%; }
+      #content > .section .field--type-entity-reference .field__item a {
+        color: #fff; }
+        #content > .section .field--type-entity-reference .field__item a:hover {
+          text-decoration: none; }
+      @media screen and (max-width: 575px) {
+        #content > .section .field--type-entity-reference .field__item {
+          max-width: 150px; } }
   #content > .section .field--name-field-previous a:before {
     content: '\f060';
     display: inline-block;
     font-family: FontAwesome;
     padding-right: 15px; }
-  #content > .section .field--name-field-next a:after {
-    content: '\f061';
-    display: inline-block;
-    font-family: FontAwesome;
-    padding-left: 15px; }
+  #content > .section .field--name-field-next {
+    text-align: right; }
+    #content > .section .field--name-field-next a:after {
+      content: '\f061';
+      display: inline-block;
+      font-family: FontAwesome;
+      padding-left: 15px; }
   #content > .section .block-social-media-links {
-    margin: -50px auto 0;
+    margin: 50px auto;
     width: 15rem; }
   #content > .section .social-media-links--platforms {
     text-align: center; }
@@ -7043,7 +7053,7 @@ input[type="search"] {
   border-bottom: 1px solid #dee2e6; }
 
 .sidebar #edit-privacy {
-  font-size: 0.75rem; }
+  font-size: 0.9rem; }
 
 /**
  * @file
@@ -7057,15 +7067,18 @@ input[type="search"] {
     display: block;
     text-align: center; }
     .site-footer .navbar-nav .nav-item {
-      display: inline-block;
       padding: 0 0 10px 5px; }
       .site-footer .navbar-nav .nav-item:first-child {
         padding-left: 0; }
         .site-footer .navbar-nav .nav-item:first-child a {
           padding-left: 0; }
       .site-footer .navbar-nav .nav-item a {
-        display: inline-block;
-        padding: 0 10px; }
+        display: inline-block; }
+      @media screen and (min-width: 576px) {
+        .site-footer .navbar-nav .nav-item {
+          display: inline-block; }
+          .site-footer .navbar-nav .nav-item a {
+            padding: 0 10px; } }
 
 /* Footer Top Styling. */
 .site-footer__top > .region > .block {

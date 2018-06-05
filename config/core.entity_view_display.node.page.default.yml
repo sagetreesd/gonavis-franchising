@@ -27,7 +27,7 @@ content:
     third_party_settings: {  }
   field_next:
     weight: 103
-    label: hidden
+    label: above
     settings:
       link: true
     third_party_settings:
@@ -37,7 +37,7 @@ content:
     region: content
   field_previous:
     weight: 102
-    label: hidden
+    label: above
     settings:
       link: true
     third_party_settings:

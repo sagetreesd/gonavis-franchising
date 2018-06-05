@@ -17,19 +17,26 @@
     padding: 15px;
 
     .field--name-body {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .field--type-entity-reference {
         margin: 0;
-        background-color: $accent-shade;
-        padding: 0.75rem;
-        border-radius: 5%;
+        .field__item {
+            margin: 0;
+            background-color: $accent-shade;
+            padding: 0.75rem;
+            border-radius: 5%;
 
-        a {
-            color: $white;
+            a {
+                color: $white;
 
-            &:hover {
-                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            @media screen and (max-width: 575px) {
+                max-width: 150px;
             }
         }
     }
@@ -39,14 +46,18 @@
         font-family: FontAwesome;
         padding-right: 15px;
     }
-    .field--name-field-next a:after {
-        content: '\f061';
-        display: inline-block;
-        font-family: FontAwesome;
-        padding-left: 15px;
+    .field--name-field-next {
+        text-align: right;
+
+        a:after {
+            content: '\f061';
+            display: inline-block;
+            font-family: FontAwesome;
+            padding-left: 15px;
+        }
     }
     .block-social-media-links {
-        margin: -50px auto 0;
+        margin: 50px auto;
         width: 15rem;
     }
     .social-media-links--platforms {
