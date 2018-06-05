@@ -11,6 +11,7 @@ $accent-secondary: #4a4a4a;
 // Reassign color vars to semantic color scheme
 $red: #dc3545;
 $yellow: #ffc107;
+$orange: #ff682c;
 $green: #28a745;
 $cyan: #17a2b8;
 $gray-100: #f8f9fa !default;
@@ -19,6 +20,7 @@ $gray: #4a4a4a;
 $dark-gray: #333;
 $theme-colors: ( primary: $accent-shade, secondary: $primary-shade, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800);
 $brand-primary: $accent-shade;
+$body-link: $orange;
 //$brand-success: $green;
 //$brand-info: $teal;
 //$brand-warning: $orange;

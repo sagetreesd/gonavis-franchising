@@ -17,7 +17,7 @@ Description: Bootstrap 4 with Sass
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #ff682c;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -6582,15 +6582,21 @@ summary {
  * Visual styles for Bootstrap Barrio's form components.
  */
 .form-required::after {
-  content: '';
+  content: ' ';
   vertical-align: super;
   display: inline-block;
-  background-image: url(../../images/required.svg);
+  background-image: url(../images/required.svg);
   background-repeat: no-repeat;
-  background-size: calc(2.25rem + 2px)/2 calc(2.25rem + 2px)/2;
-  width: calc(2.25rem + 2px)/2;
-  height: calc(2.25rem + 2px)/2;
+  background-size: cover;
+  width: 0.5rem;
+  height: 0.5rem;
   margin: 0 0.3em; }
+
+#edit-i-agree-the-information-contained-is-true-accurate-and-complete-yes {
+  margin-left: 0; }
+
+label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-yes"] {
+  margin-left: 15px; }
 
 /* ------------------ Header ------------------ */
 .region-top-header {
@@ -7816,6 +7822,17 @@ body {
 --------------------------------------------------*/
 a {
   color: black; }
+
+#main a {
+  color: #ff682c; }
+  #main a.webform-element-help {
+    color: #fff;
+    width: 1.15rem; }
+  #main a:hover {
+    text-decoration: none; }
+
+#main h2 {
+  color: #3898c6; }
 
 .bg-inverse {
   background: #A8CF45 !important; }

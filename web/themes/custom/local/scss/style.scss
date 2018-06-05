@@ -19,6 +19,22 @@ body {
 a {
     color: black;
 }
+
+#main a {
+    color: $body-link;
+
+    &.webform-element-help {
+        color: $white;
+        width: 1.15rem;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+#main h2 {
+    color: $accent-shade;
+}
  
 .bg-inverse {
     background: $primary-shade !important;
