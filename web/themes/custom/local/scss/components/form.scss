@@ -3,6 +3,10 @@
  * Visual styles for Bootstrap Barrio's form components.
  */
 
+.form-text {
+    margin-top: 0;
+}
+
 .form-required::after {
     content: ' ';
     vertical-align: super;
@@ -20,4 +24,37 @@
 }
 label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-yes"] {
     margin-left: 15px;
+}
+
+.btn-primary {
+    background-color: $button-background-color;
+    border-color: $button-border-color;
+    color: $button-text-color;
+
+    &:hover {
+        background-color: $button-background-color-hover;
+        border-color: $button-border-color; 
+    }
+}
+
+#main .block-webform-block .webform-submission-form {
+    .btn-primary {
+        padding: 10px 30px;
+    }
+
+    @media screen and (min-width: 769px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .form-group {
+            width: 48%;
+        }
+
+        .form-item-comment,
+        .form-item-how-did-you-hear-about-us,
+        #edit-privacy {
+            width: 100%;
+        }
+    }
 }

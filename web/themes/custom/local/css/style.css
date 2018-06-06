@@ -6581,6 +6581,9 @@ summary {
  * @file
  * Visual styles for Bootstrap Barrio's form components.
  */
+.form-text {
+  margin-top: 0; }
+
 .form-required::after {
   content: ' ';
   vertical-align: super;
@@ -6597,6 +6600,29 @@ summary {
 
 label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-yes"] {
   margin-left: 15px; }
+
+.btn-primary {
+  background-color: #ff682c;
+  border-color: #ee4400;
+  color: #fff; }
+  .btn-primary:hover {
+    background-color: #ee4400;
+    border-color: #ee4400; }
+
+#main .block-webform-block .webform-submission-form .btn-primary {
+  padding: 10px 30px; }
+
+@media screen and (min-width: 769px) {
+  #main .block-webform-block .webform-submission-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #main .block-webform-block .webform-submission-form .form-group {
+      width: 48%; }
+    #main .block-webform-block .webform-submission-form .form-item-comment,
+    #main .block-webform-block .webform-submission-form .form-item-how-did-you-hear-about-us,
+    #main .block-webform-block .webform-submission-form #edit-privacy {
+      width: 100%; } }
 
 /* ------------------ Header ------------------ */
 .region-top-header {
@@ -6929,8 +6955,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 
 #content > .section {
   padding: 15px; }
-  #content > .section .field--name-body {
-    margin-bottom: 50px; }
 
 .region-featured-bottom-first {
   justify-content: space-between; }
@@ -7003,6 +7027,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     width: 4rem;
     color: #fff;
     border-radius: 5%; }
+
+.featured-bottom .container {
+  background-color: #fff;
+  padding-top: 50px; }
 
 .featured-bottom .region {
   background-color: #fff; }

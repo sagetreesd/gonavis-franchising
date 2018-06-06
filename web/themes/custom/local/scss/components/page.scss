@@ -11,10 +11,6 @@
 
 #content > .section {
     padding: 15px;
-
-    .field--name-body {
-        margin-bottom: 50px;
-    }
 }
 
 .region-featured-bottom-first {
@@ -124,6 +120,11 @@
 }
 
 .featured-bottom {
+    .container {
+        background-color: $white;
+        padding-top: 50px;
+    }
+
     .region {
         background-color: $white;
     }
