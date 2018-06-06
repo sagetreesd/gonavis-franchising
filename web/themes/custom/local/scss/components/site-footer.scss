@@ -5,6 +5,11 @@
 
 .site-footer {
     padding: $spacer 0;
+
+    .region {
+        padding: 0 $spacer;
+    }
+
     .layout-container {
         padding: 0 $spacer;
     }

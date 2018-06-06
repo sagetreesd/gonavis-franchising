@@ -7115,6 +7115,8 @@ input[type="search"] {
  */
 .site-footer {
   padding: 1rem 0; }
+  .site-footer .region {
+    padding: 0 1rem; }
   .site-footer .layout-container {
     padding: 0 1rem; }
   .site-footer .navbar-nav {
