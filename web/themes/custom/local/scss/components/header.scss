@@ -44,6 +44,10 @@
             color: $white;
         }
     }
+
+    &:last-child {
+        border-bottom: 0;
+    }
 }
 
 #navbar-top.navbar-light .nav-link:hover,
@@ -70,37 +74,17 @@
     padding: 15px 25px;
 }
 
-@media (min-width: 992px) {
-    .navbar {
-        padding: 0;
-    }
-
-    .navbar-expand-lg .navbar-nav .nav-link {
-
-        &.parent-link {
-            padding: 15px 10px 15px 25px;
-        }
-    }
+.navbar {
+    text-transform: uppercase;
 }
 
 .dropdown-menu {
     background-color: $dark-gray;
     border: 0;
     border-radius: 0;
-    padding: 0;
     
     a {
         color: $white;
-    }
-
-    @media (min-width: 992px) {
-        margin-top: 0;
-        column-count: 2;
-        padding: 0;
-        
-        li {
-            break-inside: avoid-column;
-        }
     }
 }
 
@@ -108,9 +92,54 @@
     padding: 15px 20px 0 0;
 }
 
+.navbar-toggler-icon:after {
+    color: $white;
+    content: 'Menu';
+    display: inline-block;
+    padding: 5px 50px;
+}
+
 @media (min-width: 47.9em) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        &.parent-link {
+            padding: 15px 10px 15px 25px;
+        }
+    }
+
+    .dropdown-menu {
+        border-bottom: 1px solid $white;
+        margin-top: 0;
+        padding: 0;
+
+        &.column-split {
+            column-count: 2;
+
+            li {
+                break-inside: avoid-column;
+            }
+        }
+    }
+
     .dropdown:hover > .dropdown-menu {
         display: block;
+
+    }
+
+    .navbar-dark .navbar-nav li.dropdown.show {
+        background-color: $white;
+
+        > a {
+            color: $dark-gray;
+        }
+    }
+
+    #navbar-main.navbar-dark .dropdown-menu .dropdown-item.bottom {
+        // @see global.js to see how .bottom gets added.
+        border-bottom: 0;
     }
 }
 
@@ -127,5 +156,22 @@
     .navbar-toggleable-xs.collapse.in .navbar-nav .nav-item {
         margin-left: 0;
         float: none;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    #navbar-main.navbar-dark .navbar-collapse {
+        background-color: $dark-gray;
+
+        .navbar-nav .nav-item {
+            border-bottom: 1px solid $white;
+        }
+
+        .dropdown-menu .dropdown-item {
+            margin-left: 50px;
+            width: calc(100% - 70px);
+        }
     }
 }

@@ -18,6 +18,17 @@
         _d.attr('aria-expanded', hover);
         _dm[hover ? 'addClass' : 'removeClass']('show');
       });
+
+      // Get rid of that pesky bottom border in each column
+      // of the menu.
+      $('.dropdown .dropdown-menu').each(function (k, v) {
+        var children = $(this).find('.dropdown-item');
+        if (children.length > 5) {
+          $(this).addClass('column-split');
+        }
+        var half = Math.ceil(children.length / 2) - 1;
+        $(children[half]).addClass('bottom');
+      });
     }
   };
 
