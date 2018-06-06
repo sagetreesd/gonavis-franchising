@@ -3,6 +3,13 @@
  * Visual styles for Bootstrap Barrio's form components.
  */
 
+input,
+textarea,
+label,
+select {
+    font-family: $font-family-local-input;
+}
+
 .form-text {
     margin-top: 0;
 }
@@ -37,7 +44,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     }
 }
 
-#main .block-webform-block .webform-submission-form {
+#content .block-webform-block .webform-submission-form {
     .btn-primary {
         padding: 10px 30px;
     }
