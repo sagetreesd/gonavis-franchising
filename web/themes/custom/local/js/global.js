@@ -25,9 +25,9 @@
         var children = $(this).find('.dropdown-item');
         if (children.length > 5) {
           $(this).addClass('column-split');
+          var half = Math.ceil(children.length / 2) - 1;
+          $(children[half]).addClass('bottom');
         }
-        var half = Math.ceil(children.length / 2) - 1;
-        $(children[half]).addClass('bottom');
       });
     }
   };
