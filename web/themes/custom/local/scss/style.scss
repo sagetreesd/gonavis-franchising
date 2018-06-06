@@ -281,3 +281,11 @@ a {
 .triple .card-footer p {
     margin: 0;
 }
+
+.align-left {
+    padding: 0 $spacer $spacer 0;
+}
+
+.align-right {
+    padding: 0 0 $spacer $spacer;
+}

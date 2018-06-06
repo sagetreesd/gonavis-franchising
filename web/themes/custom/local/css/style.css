@@ -8137,3 +8137,9 @@ a {
 
 .triple .card-footer p {
   margin: 0; }
+
+.align-left {
+  padding: 0 1rem 1rem 0; }
+
+.align-right {
+  padding: 0 0 1rem 1rem; }
