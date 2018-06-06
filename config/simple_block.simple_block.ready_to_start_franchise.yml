@@ -7,5 +7,5 @@ dependencies:
 id: ready_to_start_franchise
 title: 'Ready to Start a Franchise?'
 content:
-  value: "<p style=\"text-align:center\">Call: <a class=\"phone-number\" href=\"tel:1-866-964-3142\">(866) 964-3142</a><br />\r\nE-mail: <a href=\"mailto:FranchiseInfo@goNavis.com\">FranchiseInfo@goNavis.com</a> Or <a href=\"/apply\">Apply Now</a></p>\r\n"
+  value: "<p style=\"text-align:center\"><a class=\"btn-primary\" href=\"/apply\">Apply Now</a></p>\r\n"
   format: full_html

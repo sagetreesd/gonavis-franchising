@@ -134,12 +134,61 @@
     }
 
     .region-featured-bottom-third {
+        border-top: 1px solid $dark-gray;
+
+        h2 {
+            color: $accent-shade;
+            font-size: 1.5rem;
+        }
+
+        > .block {
+            padding: 30px 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .block-simple-blockneed-more-information .content {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            width: 100%;
+            @media screen and (min-width: 576px) {
+                width: 50%;
+            }
+
+            a:before {
+                color: $gray;
+                display: inline-block;
+                font-family: 'fontawesome';
+                font-size: 4rem;
+                width: 100%;
+            }
+
+            a.phone-number:before {
+                content: '\f095';
+            }
+            a.email:before {
+                content: '\f0e0';
+            }
+        }
+    }
+
+    .block-simple-blockready-to-start-franchise {
         background-color: $accent-shade;
         color: $white;
-        padding: 15px 0 0;
 
+        h2,
         a {
+            border-radius: 5px;
             color: $white;
+            display: inline-block;
+            padding: 15px 30px;
+
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ dependencies:
 id: contentfield_2
 theme: local
 region: featured_bottom_first
-weight: 0
+weight: -8
 provider: null
 plugin: 'fieldblock:node'
 settings:
