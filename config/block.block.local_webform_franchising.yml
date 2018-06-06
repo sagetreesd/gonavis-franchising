@@ -17,7 +17,7 @@ provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: 'Franchising Information - Apply Now'
+  label: 'Ready to Become an Owner?'
   provider: webform
   label_display: visible
   webform_id: franchising_information_apply_no
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /apply
+    pages: "/apply\r\n/contact"
     negate: true
     context_mapping: {  }

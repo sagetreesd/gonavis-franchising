@@ -10,7 +10,7 @@ id: franchising_information_apply_no
 title: 'Application Form'
 description: 'Franchising application form.'
 category: ''
-elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\nemail:\n  '#type': email\n  '#title': 'E-mail Address'\n  '#required': true\nphone:\n  '#type': tel\n  '#title': Phone\n  '#required': true\ncity_and_state_of_interest:\n  '#type': textfield\n  '#title': 'City and State of Interest'\ncomment:\n  '#type': textarea\n  '#title': Comment\nhow_did_you_hear_about_us:\n  '#type': textfield\n  '#title': 'How did you hear about us?'\nprivacy:\n  '#type': processed_text\n  '#text': \"<p>By providing us with your email, you agree to the terms of our&nbsp;<a href=\\\"https://www.gonavis.com/privacy\\\" target=\\\"_blank\\\">Privacy Policy</a>.</p>\\n\"\n  '#format': full_html\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 'Apply Now'\n"
+elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\nemail:\n  '#type': email\n  '#title': 'E-mail Address'\n  '#required': true\nphone:\n  '#type': tel\n  '#title': Phone\n  '#required': true\ncity_and_state_of_interest:\n  '#type': textfield\n  '#title': 'City and State of Interest'\ncomment:\n  '#type': textarea\n  '#title': Comment\nhow_did_you_hear_about_us:\n  '#type': textfield\n  '#title': 'How did you hear about us?'\nprivacy:\n  '#type': processed_text\n  '#text': \"<p>By providing us with your email, you agree to the terms of our&nbsp;<a href=\\\"https://www.gonavis.com/privacy\\\" target=\\\"_blank\\\">Privacy Policy</a>.</p>\\n\"\n  '#format': full_html\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Submit\n"
 css: ''
 javascript: ''
 settings:
