@@ -29,10 +29,6 @@ a:hover {
 --------------------------------------------------*/
 
 a {
-    color: black;
-}
-
-#main a {
     color: $body-link;
 
     &.webform-element-help {
@@ -44,7 +40,7 @@ a {
     }
 }
 
-#main h2 {
+h2 {
     color: $accent-shade;
 }
  
@@ -62,6 +58,9 @@ a {
     a {
         color: $white;
     }
+}
+.light-text {
+    color: $light-gray;
 }
 
 .menu--main li a {
@@ -297,6 +296,7 @@ a {
     background-color: $button-background-color;
     border-color: $button-border-color;
     color: $button-text-color;
+    display: inline-block;
     font-weight: bold;
     padding: 15px 30px;
     text-transform: uppercase;
@@ -304,6 +304,22 @@ a {
     &:hover {
         background-color: $button-background-color-hover;
         border-color: $button-border-color; 
+    }
+}
+
+.btn-secondary {
+    background-color: $button2-background-color;
+    border-color: $button2-border-color;
+    color: $button2-text-color;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $button2-text-color;
+        background-color: $button2-background-color-hover;
+        border-color: $button2-border-color; 
     }
 }
 

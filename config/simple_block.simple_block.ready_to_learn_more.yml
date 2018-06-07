@@ -1,0 +1,11 @@
+uuid: 3c09dd74-793a-4d97-ba4d-842093945c72
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: ready_to_learn_more
+title: 'Ready to Learn More?'
+content:
+  value: "<p class=\"text-align-center\"><a href=\"/fast-facts\" class=\"btn-secondary\">Learn more about Navis Pack &amp; Ship</a></p>\r\n\r\n<p class=\"text-align-center\">Note: This is not a franchise offering. A franchise offering can be made by us only in a state we are first registered, excluded, exempted, or otherwise qualified to offer franchises in that state, and only if we provide you with an appropriate franchise disclosure document. Individualized responses or communications to you that involve either effecting or attempting to effect the sale of a franchise will be made only if we are first in compliance with state registration requirements, or are covered by an applicable state exclusion or exemption.</p>\r\n"
+  format: full_html

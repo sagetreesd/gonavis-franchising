@@ -1,0 +1,32 @@
+uuid: b6ef253b-d70f-43a6-afc9-ae1ce584682d
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.why_our_franchise_is_right
+  module:
+    - block_class
+    - simple_block
+    - system
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: 'full-width-content ribbon block-center-title'
+id: whyourfranchiseistherightopportunityforyou
+theme: local
+region: content
+weight: -3
+provider: null
+plugin: 'simple_block:why_our_franchise_is_right'
+settings:
+  id: 'simple_block:why_our_franchise_is_right'
+  label: 'Why our franchise is the right opportunity for you'
+  provider: simple_block
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

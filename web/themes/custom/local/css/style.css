@@ -6976,14 +6976,20 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   background-color: #fff;
   margin-top: 0;
   padding-top: 1rem; }
+  #main h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem; }
 
 #content > .section {
   padding: 15px; }
 
+.path-frontpage .node--view-mode-full .node__content {
+  margin: 0 auto;
+  max-width: 500px; }
+
 .region-featured-bottom-first {
   justify-content: space-between; }
-  .region-featured-bottom-first h2 {
-    font-size: 1.5rem; }
   .region-featured-bottom-first .block {
     padding: 0 30px 30px;
     margin: 0 auto; }
@@ -7054,17 +7060,21 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     width: 4rem;
     color: #fff; }
 
+.block-simple-blockready-to-learn-more {
+  background-color: #cbe4f0; }
+
 .featured-bottom .container {
   background-color: #fff;
   padding-top: 50px; }
 
 .featured-bottom .region {
   background-color: #fff; }
+  .featured-bottom .region h2 {
+    margin-bottom: 2rem; }
 
 .featured-bottom .region-featured-bottom-third {
   border-top: 1px solid #333; }
   .featured-bottom .region-featured-bottom-third h2 {
-    color: #3898c6;
     font-size: 1.5rem; }
   .featured-bottom .region-featured-bottom-third > .block {
     padding: 30px 0;
@@ -7090,16 +7100,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {
       content: '\f0e0'; }
 
-.featured-bottom .block-simple-blockready-to-start-franchise {
-  background-color: #3898c6;
-  color: #fff; }
-  .featured-bottom .block-simple-blockready-to-start-franchise h2,
-  .featured-bottom .block-simple-blockready-to-start-franchise a {
-    color: #fff;
-    display: inline-block; }
-
 #main .hero {
-  margin-top: -30px;
+  margin-top: -31px;
   margin-bottom: 30px; }
   #main .hero .node__content {
     margin: 0; }
@@ -7110,14 +7112,39 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       width: 100%; }
   #main .hero .field--name-field-hero-text {
     background-color: rgba(33, 33, 33, 0.8);
+    color: #fff;
     left: 1rem;
     padding: 30px;
     position: absolute;
     top: 50%; }
     #main .hero .field--name-field-hero-text h2 {
+      color: #fff;
+      font-size: 2rem;
       font-weight: bold; }
     #main .hero .field--name-field-hero-text .btn-primary {
       color: #fff; }
+
+.block-center-title h2 {
+  text-align: center;
+  width: 100%; }
+
+.apply-block {
+  background-color: #3898c6;
+  color: #fff; }
+  .apply-block h2,
+  .apply-block a {
+    color: #fff;
+    display: inline-block; }
+
+.ribbon {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px; }
+  .ribbon .btn-secondary {
+    margin: 0 0 30px; }
+  .ribbon .content {
+    margin: 0 auto;
+    max-width: 768px; }
 
 /**
  * @file
@@ -7977,17 +8004,14 @@ a:hover {
 /* COLORS 
 --------------------------------------------------*/
 a {
-  color: black; }
-
-#main a {
   color: #ff682c; }
-  #main a.webform-element-help {
+  a.webform-element-help {
     color: #fff;
     width: 1.15rem; }
-  #main a:hover {
+  a:hover {
     text-decoration: none; }
 
-#main h2 {
+h2 {
   color: #3898c6; }
 
 .bg-inverse {
@@ -8001,6 +8025,9 @@ a {
   .site-footer,
   .site-footer a {
     color: #fff; }
+
+.light-text {
+  color: #666; }
 
 .menu--main li a {
   color: white; }
@@ -8193,12 +8220,26 @@ a {
   background-color: #ff9300;
   border-color: #f08a00;
   color: #fff;
+  display: inline-block;
   font-weight: bold;
   padding: 15px 30px;
   text-transform: uppercase; }
   .btn-primary:hover {
     background-color: #f08a00;
     border-color: #f08a00; }
+
+.btn-secondary {
+  background-color: #3898c6;
+  border-color: #358fba;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-transform: uppercase; }
+  .btn-secondary:hover {
+    color: #fff;
+    background-color: #358fba;
+    border-color: #358fba; }
 
 .full-width-content {
   margin-left: -30px;

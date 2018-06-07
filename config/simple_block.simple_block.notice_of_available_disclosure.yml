@@ -1,0 +1,11 @@
+uuid: eb563559-af7b-4175-837e-be811d44d0d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: notice_of_available_disclosure
+title: 'Notice of Available Disclosure Formats'
+content:
+  value: "<p class=\"text-align-center\">We will furnish you with our franchise disclosure document in paper form, if you qualify as a franchisee prospect. The franchise disclosure document will be presented to you personally in our office, by mail or by courier to you at our cost, if you qualify as a franchisee prospect. A copy of the franchise disclosure document will be made available to you electronically in PDF format, by which written request to Mary Ann Canup at <a href=\"mailto:mcanup@annexbrands.com\">mcanup@annexbrands.com</a> only if you qualify as a franchisee prospect. You will need to have Adobe Reader software installed on your computer to view the document and a printer to create a paper copy of the document.</p>\r\n"
+  format: full_html

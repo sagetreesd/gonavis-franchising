@@ -5,9 +5,13 @@ dependencies:
   config:
     - simple_block.simple_block.ready_to_start_franchise
   module:
+    - block_class
     - simple_block
   theme:
     - local
+third_party_settings:
+  block_class:
+    classes: apply-block
 id: local_readytostartafranchise_2
 theme: local
 region: featured_bottom_third

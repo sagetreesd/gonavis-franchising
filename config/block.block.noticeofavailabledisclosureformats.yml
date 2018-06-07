@@ -1,0 +1,32 @@
+uuid: 48c365b8-6349-4daf-b18a-30313839317b
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.notice_of_available_disclosure
+  module:
+    - block_class
+    - simple_block
+    - system
+  theme:
+    - local
+third_party_settings:
+  block_class:
+    classes: 'full-width-content ribbon block-center-title light-text'
+id: noticeofavailabledisclosureformats
+theme: local
+region: content
+weight: -1
+provider: null
+plugin: 'simple_block:notice_of_available_disclosure'
+settings:
+  id: 'simple_block:notice_of_available_disclosure'
+  label: 'Notice of Available Disclosure Formats'
+  provider: simple_block
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

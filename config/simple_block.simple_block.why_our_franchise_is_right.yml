@@ -1,0 +1,11 @@
+uuid: 283a1059-420b-4de9-884a-9f4150c68dea
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: why_our_franchise_is_right
+title: 'Why our franchise is the right opportunity for you'
+content:
+  value: "<div>\r\n<h2 class=\"text-align-center\">Growth Potential</h2>\r\n\r\n<p class=\"text-align-center\">Navis is a leader in the market. Our model is scalable -- the sky's the limit, and you can grow at a pace that's comfortable for you.</p>\r\n</div>\r\n\r\n<div>\r\n<h2 class=\"text-align-center\">Lifestyle Flexibility</h2>\r\n\r\n<p class=\"text-align-center\">Have more time to enjoy life with 8-5 business hours instead of grueling retail hours.</p>\r\n</div>\r\n\r\n<div>\r\n<h2 class=\"text-align-center\">Continual Support</h2>\r\n\r\n<p class=\"text-align-center\">We offer comprehensive training, marketing, sales, operations and technology support to assist you before you open your doors and as you build your business to its full potential.</p>\r\n</div>\r\n"
+  format: full_html

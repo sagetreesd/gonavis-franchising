@@ -7,19 +7,25 @@
     background-color: $white;
     margin-top: 0;
     padding-top: $spacer;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
 }
 
 #content > .section {
     padding: 15px;
 }
 
+.path-frontpage .node--view-mode-full .node__content {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
 .region-featured-bottom-first {
     justify-content: space-between;
-
-    h2 {
-        font-size: 1.5rem;
-
-    }
 
     .block {
         padding: 0 30px 30px;
@@ -122,6 +128,10 @@
     }
 }
 
+.block-simple-blockready-to-learn-more {
+    background-color: $accent-light;
+}
+
 .featured-bottom {
     .container {
         background-color: $white;
@@ -130,13 +140,16 @@
 
     .region {
         background-color: $white;
+        
+        h2 {
+            margin-bottom: 2rem;
+        }
     }
 
     .region-featured-bottom-third {
         border-top: 1px solid $dark-gray;
 
         h2 {
-            color: $accent-shade;
             font-size: 1.5rem;
         }
 
@@ -173,21 +186,10 @@
             }
         }
     }
-
-    .block-simple-blockready-to-start-franchise {
-        background-color: $accent-shade;
-        color: $white;
-
-        h2,
-        a {
-            color: $white;
-            display: inline-block;
-        }
-    }
 }
 
 #main .hero {
-    margin-top: -30px;
+    margin-top: -31px;
     margin-bottom: 30px;
 
     .node__content {
@@ -202,15 +204,49 @@
     }
     .field--name-field-hero-text {
         background-color: rgba(33, 33, 33, 0.8);
+        color: $white;
         left: $spacer;
         padding: 30px;
         position: absolute;
         top: 50%;
         h2 {
+            color: $white;
+            font-size: 2rem;
             font-weight: bold;
         }
         .btn-primary {
             color: $button-text-color;
         }
+    }
+}
+
+.block-center-title h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.apply-block {
+    background-color: $accent-shade;
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        display: inline-block;
+    }
+}
+
+.ribbon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+    .btn-secondary {
+        margin: 0 0 30px;
+    }
+
+    .content {
+        margin: 0 auto;
+        max-width: 768px;
     }
 }
