@@ -7104,7 +7104,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   margin-top: -31px;
   margin-bottom: 30px; }
   #main .hero .node__content {
-    margin: 0; }
+    margin: 0;
+    position: relative; }
   #main .hero .field--type-image {
     margin: 0; }
     #main .hero .field--type-image img {
