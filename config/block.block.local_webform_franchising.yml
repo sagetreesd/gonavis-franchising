@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/apply\r\n/contact"
+    pages: "/apply\r\n/contact\r\n<front>"
     negate: true
     context_mapping: {  }

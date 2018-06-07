@@ -33,17 +33,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     margin-left: 15px;
 }
 
-.btn-primary {
-    background-color: $button-background-color;
-    border-color: $button-border-color;
-    color: $button-text-color;
-
-    &:hover {
-        background-color: $button-background-color-hover;
-        border-color: $button-border-color; 
-    }
-}
-
 #content .block-webform-block .webform-submission-form {
     .btn-primary {
         padding: 10px 30px;
