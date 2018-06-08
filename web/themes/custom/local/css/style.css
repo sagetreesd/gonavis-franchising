@@ -7027,14 +7027,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
           text-align: left; }
         .region-featured-bottom-first .block:last-child h2 {
           text-align: right; } }
-    .region-featured-bottom-first .block .field--type-entity-reference a {
-      background-color: #3898c6;
-      border-radius: 5px;
-      color: #fff;
-      display: inline-block;
-      padding: 15px; }
-      .region-featured-bottom-first .block .field--type-entity-reference a:hover {
-        text-decoration: none; }
 
 .field--type-entity-reference {
   margin: 0; }
