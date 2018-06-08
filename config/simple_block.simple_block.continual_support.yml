@@ -1,0 +1,11 @@
+uuid: 0d0af11a-5ab9-4e38-98dd-de78639fa611
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: continual_support
+title: 'Continual Support'
+content:
+  value: "<p class=\"text-align-center\">We offer comprehensive training, marketing, sales, operations and technology support to assist you before you open your doors and as you build your business to its full potential.</p>\r\n"
+  format: full_html

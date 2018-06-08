@@ -19,6 +19,43 @@
     padding: 15px;
 }
 
+.block-center-title h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.apply-block {
+    background-color: $accent-shade;
+    color: $white;
+
+    h2,
+    a {
+        color: $white;
+        display: inline-block;
+    }
+}
+
+.ribbon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+    .btn-secondary {
+        margin: 0 0 30px;
+    }
+
+    .content {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+}
+
+.block-column {
+    width: 30%;
+    margin: 0 1.5%;
+    float: left;
+}
+
 .path-frontpage .node--view-mode-full .node__content {
     margin: 0 auto;
     max-width: 500px;
@@ -132,6 +169,33 @@
     background-color: $accent-light;
 }
 
+.block-simple-blockwhy-our-franchise-is-right {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.block-simple-blockgrowth-potential,
+.block-simple-blocklifestyle-flexibility,
+.block-simple-blockcontinual-support {
+    h2:before {
+        color: $light-gray;
+        display: block;
+        font-family: 'fontawesome';
+        font-size: 3rem;
+        font-weight: normal;
+    }
+}
+
+.block-simple-blockgrowth-potential h2:before {
+    content: '\f201';
+}
+.block-simple-blocklifestyle-flexibility h2:before {
+    content: '\f234';
+}
+.block-simple-blockcontinual-support h2:before {
+    content: '\f4c4';
+}
+
 .featured-bottom {
     .container {
         background-color: $white;
@@ -218,36 +282,5 @@
         .btn-primary {
             color: $button-text-color;
         }
-    }
-}
-
-.block-center-title h2 {
-    text-align: center;
-    width: 100%;
-}
-
-.apply-block {
-    background-color: $accent-shade;
-    color: $white;
-
-    h2,
-    a {
-        color: $white;
-        display: inline-block;
-    }
-}
-
-.ribbon {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 30px;
-
-    .btn-secondary {
-        margin: 0 0 30px;
-    }
-
-    .content {
-        margin: 0 auto;
-        max-width: 768px;
     }
 }

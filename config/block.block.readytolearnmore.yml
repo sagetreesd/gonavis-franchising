@@ -16,7 +16,7 @@ third_party_settings:
 id: readytolearnmore
 theme: local
 region: content
-weight: -2
+weight: -1
 provider: null
 plugin: 'simple_block:ready_to_learn_more'
 settings:

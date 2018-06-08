@@ -16,7 +16,7 @@ third_party_settings:
 id: whyourfranchiseistherightopportunityforyou
 theme: local
 region: content
-weight: -3
+weight: -5
 provider: null
 plugin: 'simple_block:why_our_franchise_is_right'
 settings:

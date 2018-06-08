@@ -16,7 +16,7 @@ third_party_settings:
 id: noticeofavailabledisclosureformats
 theme: local
 region: content
-weight: -1
+weight: 0
 provider: null
 plugin: 'simple_block:notice_of_available_disclosure'
 settings:

@@ -13,7 +13,7 @@ third_party_settings:
 id: entityviewcontent
 theme: local
 region: content
-weight: -10
+weight: -12
 provider: null
 plugin: 'entity_view:node'
 settings:

@@ -1,0 +1,11 @@
+uuid: fcf9d206-e454-4b04-b98b-517f5382acc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: lifestyle_flexibility
+title: 'Lifestyle Flexibility'
+content:
+  value: "<p class=\"text-align-center\">Have more time to enjoy life with 8-5 business hours instead of grueling retail hours.</p>\r\n"
+  format: full_html
