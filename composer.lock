@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7809f518ce02aaf815e3013d28cdba25",
+    "content-hash": "aa7f1765db80f92dcf3733b63ef9597f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1378,17 +1378,17 @@
         },
         {
             "name": "drupal/bootstrap_barrio",
-            "version": "4.10.0",
+            "version": "4.12.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bootstrap_barrio",
-                "reference": "8.x-4.10"
+                "reference": "8.x-4.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-8.x-4.10.zip",
-                "reference": "8.x-4.10",
-                "shasum": "ffd47bd2d21435e877b59a2ae4429f500cc96be3"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-8.x-4.12.zip",
+                "reference": "8.x-4.12",
+                "shasum": "2b5e013fb83a8dd0e8a062e1d27e7f6f740db993"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1399,12 +1399,15 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.10",
-                    "datestamp": "1526911680",
+                    "version": "8.x-4.12",
+                    "datestamp": "1527445380",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Fontawesome 4.7 Update": "https://www.drupal.org/files/issues/2018-06-08/fontawesome-2978386-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

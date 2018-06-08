@@ -98,6 +98,11 @@
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
+        "patches": {
+            "drupal/bootstrap_barrio": {
+                "Fontawesome 4.7 Update": "https://www.drupal.org/files/issues/2018-06-08/fontawesome-2978386-1.patch"
+            }
+        },
         "build-env": {
             "install-cms": [
                 "drush site-install standard --account-mail={account-mail} --account-name={account-name} --account-pass={account-pass} --site-mail={site-mail} --site-name={site-name} --yes",
