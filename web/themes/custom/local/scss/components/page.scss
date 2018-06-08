@@ -94,42 +94,53 @@
 
 .field--type-entity-reference {
     margin: 0;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+
     .field__item {
         margin: 0;
-        background-color: $accent-shade;
-        padding: 0.75rem;
-        border-radius: 5%;
-
+        
         a {
+            background-color: $accent-shade;
             color: $white;
+            padding: 0.75rem;
 
             &:hover {
+                background-color: $accent-dark;
                 text-decoration: none;
             }
         }
+    }
+}
 
-        @media screen and (max-width: 575px) {
-            max-width: 150px;
+.field--name-field-next,
+.field--name-field-previous {
+    a {
+        font-size: 1.5rem;
+        font-weight: normal;
+
+        &:before,
+        &:after {
+            display: inline-block;
+            font-family: FontAwesome;
         }
     }
 }
-.field--name-field-previous {
-    float: left;
 
-    a:before {
-        content: '\f060';
-        display: inline-block;
-        font-family: FontAwesome;
-        padding-right: 15px;
-    }
+.field--name-field-previous a:before {
+    content: '\f060';
+    padding-right: 15px;
 }
+
 .field--name-field-next {
-    float: right;
+    @media screen and (min-width: 768px) {
+        text-align: right;
+    }
 
     a:after {
         content: '\f061';
-        display: inline-block;
-        font-family: FontAwesome;
         padding-left: 15px;
     }
 }
@@ -204,6 +215,10 @@
         h2 {
             margin-bottom: 2rem;
         }
+    }
+
+    .region-featured-bottom-first h2 {
+        margin-bottom: 0;
     }
 
     .region-featured-bottom-third {
@@ -293,7 +308,7 @@
         @media (max-width: 33.8em) {
             height: calc(100% - 15px);
             top: 0;
-            margin-left: -15px;
+            margin-left: -16px;
             width: 100%;
         }
 

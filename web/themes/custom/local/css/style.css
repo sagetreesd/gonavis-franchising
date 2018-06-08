@@ -7038,34 +7038,40 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 
 .field--type-entity-reference {
   margin: 0; }
+  @media screen and (max-width: 767px) {
+    .field--type-entity-reference {
+      text-align: center; } }
   .field--type-entity-reference .field__item {
-    margin: 0;
-    background-color: #3898c6;
-    padding: 0.75rem;
-    border-radius: 5%; }
+    margin: 0; }
     .field--type-entity-reference .field__item a {
-      color: #fff; }
+      background-color: #3898c6;
+      color: #fff;
+      padding: 0.75rem; }
       .field--type-entity-reference .field__item a:hover {
+        background-color: #2b7396;
         text-decoration: none; }
-    @media screen and (max-width: 575px) {
-      .field--type-entity-reference .field__item {
-        max-width: 150px; } }
 
-.field--name-field-previous {
-  float: left; }
-  .field--name-field-previous a:before {
-    content: '\f060';
+.field--name-field-next a,
+.field--name-field-previous a {
+  font-size: 1.5rem;
+  font-weight: normal; }
+  .field--name-field-next a:before, .field--name-field-next a:after,
+  .field--name-field-previous a:before,
+  .field--name-field-previous a:after {
     display: inline-block;
-    font-family: FontAwesome;
-    padding-right: 15px; }
+    font-family: FontAwesome; }
 
-.field--name-field-next {
-  float: right; }
-  .field--name-field-next a:after {
-    content: '\f061';
-    display: inline-block;
-    font-family: FontAwesome;
-    padding-left: 15px; }
+.field--name-field-previous a:before {
+  content: '\f060';
+  padding-right: 15px; }
+
+@media screen and (min-width: 768px) {
+  .field--name-field-next {
+    text-align: right; } }
+
+.field--name-field-next a:after {
+  content: '\f061';
+  padding-left: 15px; }
 
 #block-franchiseapplication {
   padding: 30px 0; }
@@ -7122,6 +7128,9 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   background-color: #fff; }
   .featured-bottom .region h2 {
     margin-bottom: 2rem; }
+
+.featured-bottom .region-featured-bottom-first h2 {
+  margin-bottom: 0; }
 
 .featured-bottom .region-featured-bottom-third {
   border-top: 1px solid #333; }
@@ -7184,7 +7193,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       #main .hero .field--name-field-hero-text {
         height: calc(100% - 15px);
         top: 0;
-        margin-left: -15px;
+        margin-left: -16px;
         width: 100%; } }
     @media (min-width: 33.9em) {
       #main .hero .field--name-field-hero-text {
