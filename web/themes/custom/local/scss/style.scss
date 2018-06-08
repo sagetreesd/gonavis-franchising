@@ -21,8 +21,16 @@ h5 {
     font-family: $font-family-local-h;
 }
 
+@include responsive-headings('h1', $font-size-h1, 1);
+@include responsive-headings('h2', $font-size-h2, 1);
+@include responsive-headings('h3', $font-size-h3, 1);
+@include responsive-headings('h4', $font-size-h4, 0.7);
+@include responsive-headings('h5', $font-size-h5, 0.6);
+@include responsive-headings('h6', $font-size-h6, 0.5);
+
 a:hover {
     text-decoration: none;
+    transition: 0.25s ease-out;
 }
 
 /* COLORS 
@@ -30,6 +38,7 @@ a:hover {
 
 a {
     color: $body-link;
+    transition: 0.1s ease-out;
 
     &.webform-element-help {
         color: $white;

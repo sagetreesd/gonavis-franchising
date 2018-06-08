@@ -6634,6 +6634,9 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .navbar-brand img {
   width: 138px; }
 
+.block-simple-blockphone-block a {
+  color: #333; }
+
 #navbar-top {
   padding: 1rem; }
   #navbar-top #block-local-phone {
@@ -7006,11 +7009,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     margin: 0 auto;
     max-width: 768px; }
 
-.block-column {
-  width: 30%;
-  margin: 0 1.5%;
-  float: left; }
-
 .path-frontpage .node--view-mode-full .node__content {
   margin: 0 auto;
   max-width: 500px; }
@@ -7094,14 +7092,18 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   margin-bottom: 0;
   padding-bottom: 0; }
 
-.block-simple-blockgrowth-potential h2:before,
-.block-simple-blocklifestyle-flexibility h2:before,
-.block-simple-blockcontinual-support h2:before {
-  color: #666;
-  display: block;
-  font-family: 'fontawesome';
-  font-size: 3rem;
-  font-weight: normal; }
+.block-simple-blockgrowth-potential,
+.block-simple-blocklifestyle-flexibility,
+.block-simple-blockcontinual-support {
+  padding-bottom: 1rem; }
+  .block-simple-blockgrowth-potential h2:before,
+  .block-simple-blocklifestyle-flexibility h2:before,
+  .block-simple-blockcontinual-support h2:before {
+    color: #666;
+    display: block;
+    font-family: 'fontawesome';
+    font-size: 3rem;
+    font-weight: normal; }
 
 .block-simple-blockgrowth-potential h2:before {
   content: '\f201'; }
@@ -7144,6 +7146,12 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       font-family: 'fontawesome';
       font-size: 4rem;
       width: 100%; }
+      .featured-bottom .block-simple-blockneed-more-information .content div a:before:hover {
+        color: #3898c6; }
+    .featured-bottom .block-simple-blockneed-more-information .content div a {
+      color: #333; }
+    .featured-bottom .block-simple-blockneed-more-information .content div a:hover {
+      color: #3898c6; }
     .featured-bottom .block-simple-blockneed-more-information .content div a.phone-number:before {
       content: '\f095'; }
     .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {
@@ -7164,15 +7172,28 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     background-color: rgba(33, 33, 33, 0.8);
     color: #fff;
     left: 1rem;
-    padding: 30px;
-    position: absolute;
-    top: 50%; }
+    padding: 1rem;
+    position: absolute; }
     #main .hero .field--name-field-hero-text h2 {
       color: #fff;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: bold; }
     #main .hero .field--name-field-hero-text .btn-primary {
       color: #fff; }
+    @media (max-width: 33.8em) {
+      #main .hero .field--name-field-hero-text {
+        height: calc(100% - 15px);
+        top: 0;
+        margin-left: -15px;
+        width: 100%; } }
+    @media (min-width: 33.9em) {
+      #main .hero .field--name-field-hero-text {
+        bottom: 30px; } }
+    @media (min-width: 47.9em) {
+      #main .hero .field--name-field-hero-text {
+        padding: 30px; }
+        #main .hero .field--name-field-hero-text h2 {
+          font-size: 2rem; } }
 
 /**
  * @file
@@ -8026,13 +8047,99 @@ h4,
 h5 {
   font-family: "Signika", Arial, Helvetica, "Nimbus Sans L", sans-serif; }
 
+h1, .h1 {
+  font-size: 1.5rem; }
+
+h1, .h1 {
+  font-size: 2rem; }
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2.25rem; } }
+
+@media (min-width: 992px) {
+  h1, .h1 {
+    font-size: 2.5rem; } }
+
+h2, .h2 {
+  font-size: 1.2rem; }
+
+h2, .h2 {
+  font-size: 1.6rem; }
+
+@media (min-width: 768px) {
+  h2, .h2 {
+    font-size: 1.8rem; } }
+
+@media (min-width: 992px) {
+  h2, .h2 {
+    font-size: 2rem; } }
+
+h3, .h3 {
+  font-size: 1.05rem; }
+
+h3, .h3 {
+  font-size: 1.4rem; }
+
+@media (min-width: 768px) {
+  h3, .h3 {
+    font-size: 1.575rem; } }
+
+@media (min-width: 992px) {
+  h3, .h3 {
+    font-size: 1.75rem; } }
+
+h4, .h4 {
+  font-size: 1.08rem; }
+
+h4, .h4 {
+  font-size: 1.29rem; }
+
+@media (min-width: 768px) {
+  h4, .h4 {
+    font-size: 1.395rem; } }
+
+@media (min-width: 992px) {
+  h4, .h4 {
+    font-size: 1.5rem; } }
+
+h5, .h5 {
+  font-size: 0.95rem; }
+
+h5, .h5 {
+  font-size: 1.1rem; }
+
+@media (min-width: 768px) {
+  h5, .h5 {
+    font-size: 1.175rem; } }
+
+@media (min-width: 992px) {
+  h5, .h5 {
+    font-size: 1.25rem; } }
+
+h6, .h6 {
+  font-size: 0.8rem; }
+
+h6, .h6 {
+  font-size: 0.9rem; }
+
+@media (min-width: 768px) {
+  h6, .h6 {
+    font-size: 0.95rem; } }
+
+@media (min-width: 992px) {
+  h6, .h6 {
+    font-size: 1rem; } }
+
 a:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.25s ease-out; }
 
 /* COLORS 
 --------------------------------------------------*/
 a {
-  color: #ff682c; }
+  color: #ff682c;
+  transition: 0.1s ease-out; }
   a.webform-element-help {
     color: #fff;
     width: 1.15rem; }

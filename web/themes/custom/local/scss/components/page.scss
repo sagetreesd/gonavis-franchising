@@ -50,12 +50,6 @@
     }
 }
 
-.block-column {
-    width: 30%;
-    margin: 0 1.5%;
-    float: left;
-}
-
 .path-frontpage .node--view-mode-full .node__content {
     margin: 0 auto;
     max-width: 500px;
@@ -177,6 +171,8 @@
 .block-simple-blockgrowth-potential,
 .block-simple-blocklifestyle-flexibility,
 .block-simple-blockcontinual-support {
+    padding-bottom: $spacer;
+
     h2:before {
         color: $light-gray;
         display: block;
@@ -240,8 +236,18 @@
                 font-family: 'fontawesome';
                 font-size: 4rem;
                 width: 100%;
+
+                &:hover {
+                    color: $accent-shade;
+                }
             }
 
+            a {
+                color: $dark-gray;
+            }
+            a:hover {
+                color: $accent-shade;
+            }
             a.phone-number:before {
                 content: '\f095';
             }
@@ -271,16 +277,36 @@
         background-color: rgba(33, 33, 33, 0.8);
         color: $white;
         left: $spacer;
-        padding: 30px;
+        padding: $spacer;
         position: absolute;
-        top: 50%;
+
         h2 {
             color: $white;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: bold;
         }
+
         .btn-primary {
             color: $button-text-color;
+        }
+
+        @media (max-width: 33.8em) {
+            height: calc(100% - 15px);
+            top: 0;
+            margin-left: -15px;
+            width: 100%;
+        }
+
+        @media (min-width: 33.9em) {
+            bottom: 30px;
+        }
+
+        @media (min-width: 47.9em) {
+            padding: 30px;
+
+            h2 {
+                font-size: 2rem;
+            }
         }
     }
 }
