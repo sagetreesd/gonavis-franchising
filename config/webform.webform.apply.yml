@@ -73,11 +73,11 @@ settings:
   draft_saved_message: ''
   draft_loaded_message: ''
   confirmation_type: page
-  confirmation_title: ''
-  confirmation_message: 'Thank you for your application!'
+  confirmation_title: 'Thank you for your interest in becoming an owner!'
+  confirmation_message: "<p>Thank you for submitting your information. &nbsp;Your message has been routed to the appropriate department for review.</p>\r\n\r\n<p>If you need more immediate assistance, please call us at <a class=\"phone-number\" href=\"tel:1-866-964-3142\">(866) 964-3142</a>. &nbsp;Thank you for your interest in a Pak Mail&nbsp;franchise.</p>\r\n\r\n<p>GoNavis<br />\r\nA member of the Annex Brands, Inc. franchise family.<br />\r\n7580 Metropolitan Dr Ste 200<br />\r\nSan Diego, CA 92108-4419</p>"
   confirmation_url: ''
   confirmation_attributes: {  }
-  confirmation_back: true
+  confirmation_back: false
   confirmation_back_label: ''
   confirmation_back_attributes: {  }
   confirmation_exclude_query: false

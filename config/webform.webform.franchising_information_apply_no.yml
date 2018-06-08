@@ -8,13 +8,13 @@ uid: 1
 template: false
 id: franchising_information_apply_no
 title: 'Application Form'
-description: 'Franchising application form.'
+description: 'Franchising application short form.'
 category: ''
 elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\nemail:\n  '#type': email\n  '#title': 'E-mail Address'\n  '#required': true\nphone:\n  '#type': tel\n  '#title': Phone\n  '#required': true\ncity_and_state_of_interest:\n  '#type': textfield\n  '#title': 'City and State of Interest'\ncomment:\n  '#type': textarea\n  '#title': Comment\nhow_did_you_hear_about_us:\n  '#type': textfield\n  '#title': 'How did you hear about us?'\nprivacy:\n  '#type': processed_text\n  '#text': \"<p>By providing us with your email, you agree to the terms of our&nbsp;<a href=\\\"https://www.gonavis.com/privacy\\\" target=\\\"_blank\\\">Privacy Policy</a>.</p>\\n\"\n  '#format': full_html\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Submit\n"
 css: ''
 javascript: ''
 settings:
-  ajax: true
+  ajax: false
   ajax_scroll_top: form
   page: false
   page_submit_path: ''
@@ -72,12 +72,12 @@ settings:
   draft_auto_save: false
   draft_saved_message: ''
   draft_loaded_message: ''
-  confirmation_type: inline
-  confirmation_title: ''
-  confirmation_message: "<p>Thank you for contacting Navis Pack &amp; Ship regarding a franchise opportunity. We will respond to you as soon as possible.</p>\r\n\r\n<p>If you need more immediate assistance, or if you have additional information or questions, please don&#39;t hesitate to contact us now by calling us toll-free at <a href=\"tel:1-866-738-6820\">(866) 738-6820</a>.</p>\r\n\r\n<p>Sincerely,</p>\r\n\r\n<p>Ryan Heine<br />\r\nVice President of Franchising for Navis Pack &amp; Ship</p>"
+  confirmation_type: page
+  confirmation_title: 'Thank you for your interest in becoming an owner!'
+  confirmation_message: "<p>Thank you for contacting Navis Pack &amp; Ship regarding a franchise opportunity. We will respond to you as soon as possible.</p>\r\n\r\n<p>If you need more immediate assistance, or if you have additional information or questions, please don&#39;t hesitate to contact us now by calling us toll-free at <a href=\"tel:1-866-964-3142\">(866) 964-3142</a>.</p>\r\n\r\n<p>Sincerely,</p>\r\n\r\n<p>Ryan Heine<br />\r\nVice President of Franchising for Navis Pack &amp; Ship</p>"
   confirmation_url: ''
   confirmation_attributes: {  }
-  confirmation_back: true
+  confirmation_back: false
   confirmation_back_label: ''
   confirmation_back_attributes: {  }
   confirmation_exclude_query: false
@@ -140,4 +140,68 @@ access:
     roles: {  }
     users: {  }
     permissions: {  }
-handlers: {  }
+handlers:
+  jmarquez:
+    id: email
+    label: JMarquez
+    handler_id: jmarquez
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: jmarquez@annexbrands.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+  rheine:
+    id: email
+    label: RHeine
+    handler_id: rheine
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: rheine@annexbrands.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
