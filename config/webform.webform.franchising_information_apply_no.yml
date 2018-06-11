@@ -16,9 +16,9 @@ javascript: ''
 settings:
   ajax: false
   ajax_scroll_top: form
-  page: false
-  page_submit_path: ''
-  page_confirm_path: ''
+  page: true
+  page_submit_path: apply-short
+  page_confirm_path: apply-short/message-sent
   form_submit_once: false
   form_exception_message: ''
   form_open_message: ''
