@@ -7042,6 +7042,9 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       .field--type-entity-reference .field__item a:hover {
         background-color: #2b7396;
         text-decoration: none; }
+  .field--type-entity-reference .field--name-field-pager-caption {
+    font-size: 0.85rem;
+    color: #888; }
 
 .field--name-field-next a,
 .field--name-field-previous a {
@@ -7052,6 +7055,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   .field--name-field-previous a:after {
     display: inline-block;
     font-family: FontAwesome; }
+  @media screen and (max-width: 1200px) {
+    .field--name-field-next a,
+    .field--name-field-previous a {
+      font-size: 1rem; } }
 
 .field--name-field-previous a:before {
   content: '\f060';
@@ -7079,7 +7086,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   .block-social-media-links .fa-5x {
     font-size: 2rem;
     background-color: #4a4a4a;
-    padding: 0.5rem;
+    border-radius: 5px;
+    padding: 0.75rem 0.5rem;
     width: 4rem;
     color: #fff; }
 
@@ -7157,6 +7165,12 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
       content: '\f095'; }
     .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {
       content: '\f0e0'; }
+
+.region-featured-bottom-first {
+  padding-bottom: 40px; }
+  @media screen and (max-width: 768px) {
+    .region-featured-bottom-first {
+      flex-direction: column-reverse; } }
 
 #main .hero {
   margin-top: -31px;
@@ -8355,6 +8369,7 @@ h2 {
 .btn-primary {
   background-color: #ff9300;
   border-color: #f08a00;
+  border-radius: 5px;
   color: #fff;
   display: inline-block;
   font-weight: bold;

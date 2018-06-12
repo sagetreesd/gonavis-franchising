@@ -101,6 +101,11 @@
             }
         }
     }
+
+    .field--name-field-pager-caption {
+        font-size: 0.85rem;
+        color: $lighter-gray;
+    }
 }
 
 .field--name-field-next,
@@ -113,6 +118,10 @@
         &:after {
             display: inline-block;
             font-family: FontAwesome;
+        }
+
+        @media screen and (max-width: 1200px) {
+            font-size: 1rem;
         }
     }
 }
@@ -152,7 +161,8 @@
     .fa-5x {
         font-size: 2rem;
         background-color: $accent-secondary;
-        padding: 0.5rem;
+        border-radius: 5px;
+        padding: 0.75rem 0.5rem;
         width: 4rem;
         color: $white;
     }
@@ -258,6 +268,14 @@
                 content: '\f0e0';
             }
         }
+    }
+}
+
+.region-featured-bottom-first {
+    padding-bottom: 40px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column-reverse;
     }
 }
 
