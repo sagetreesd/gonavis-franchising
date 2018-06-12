@@ -6716,6 +6716,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
         break-inside: avoid-column; }
   .dropdown:hover > .dropdown-menu {
     display: block; }
+  .navbar-dark .navbar-nav li.dropdown.active {
+    background-color: #333; }
+    .navbar-dark .navbar-nav li.dropdown.active > a {
+      color: #fff; }
   .navbar-dark .navbar-nav li.dropdown.show {
     background-color: #fff; }
     .navbar-dark .navbar-nav li.dropdown.show > a {

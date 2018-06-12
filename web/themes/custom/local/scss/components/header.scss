@@ -133,11 +133,20 @@
 
     }
 
-    .navbar-dark .navbar-nav li.dropdown.show {
-        background-color: $white;
+    .navbar-dark .navbar-nav li.dropdown {
+        &.active {
+            background-color: $dark-gray;
 
-        > a {
-            color: $dark-gray;
+            > a {
+                color: $white;
+            }
+        }
+        &.show {
+            background-color: $white;
+
+            > a {
+                color: $dark-gray;
+            }
         }
     }
 
