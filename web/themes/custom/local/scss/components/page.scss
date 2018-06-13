@@ -18,7 +18,7 @@
     margin-left: -30px;
     margin-right: -30px;
     margin-bottom: 20px;
-    padding: 40px;
+    padding: 40px 60px;
 
     h1 {
         margin: 0;
@@ -172,6 +172,10 @@
         padding: 0.75rem 0.5rem;
         width: 4rem;
         color: $white;
+
+        &:hover {
+            background-color: $light-gray;
+        }
     }
 }
 
