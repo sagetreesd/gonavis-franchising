@@ -81,3 +81,15 @@
     border-left: $border-width solid #fff4f4;
     border-right: $border-width solid #fff4f4;
 }
+
+.node--view-mode-previous,
+.node--view-mode-next {
+    .node__content {
+        margin: 0;
+        padding: 0;
+    }
+
+    .node__title {
+        margin-bottom: 15px;
+    }
+}
