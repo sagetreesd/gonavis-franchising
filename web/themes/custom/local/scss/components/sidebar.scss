@@ -1,10 +1,18 @@
 /* ------------------ Sidebar ----------------- */
 
 .sidebar {
+    background-color: $accent-shade;
+
+    .section {
+        background-color: $white;
+        border-radius: 5px;
+        margin: 40px 0 50px;
+    }
     .block {
+        border-radius: 5px;
         border-style: solid;
         border-width: $border-width;
-        padding: $spacer $spacer;
+        padding: 0 $spacer $spacer;
         margin: 0 0 $spacer;
         .content {
             font-size: $font-size-base;
@@ -12,11 +20,12 @@
         }
     }
     h2 {
-        margin: 0 0 ($spacer * .5);
+        color: $white;
+        margin: 0 -16px ($spacer * .5) -16px;
+        background-color: $gray;
         border-bottom: $border-width solid $border-color;
-        padding-bottom: 5px;
-        text-shadow: 0 $border-width 0 $white;
-        font-size: $font-size-lg;
+        padding: $spacer;
+        font-size: 18px;
         line-height: $headings-line-height;
     }
     tbody {
