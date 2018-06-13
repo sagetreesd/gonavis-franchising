@@ -6988,6 +6988,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 
 #content > .section {
   padding: 0 15px 15px; }
+  #content > .section .block h2 {
+    font-size: 1.75rem; }
 
 #block-local-page-title {
   background-color: #3898c6;
@@ -7208,7 +7210,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   #main .hero .field--name-field-hero-text h2 {
     color: #fff;
     font-size: 1.5rem;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: 50px; }
   #main .hero .field--name-field-hero-text .btn-primary {
     color: #fff; }
   @media (max-width: 33.8em) {
@@ -8087,46 +8090,46 @@ h1 {
   text-transform: uppercase; }
 
 h1, .h1 {
-  font-size: 0.75rem; }
+  font-size: 0.9rem; }
 
 h1, .h1 {
+  font-size: 1.2rem; }
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 1.35rem; } }
+
+@media (min-width: 992px) {
+  h1, .h1 {
+    font-size: 1.5rem; } }
+
+h2, .h2 {
+  font-size: 0.75rem; }
+
+h2, .h2 {
   font-size: 1rem; }
 
 @media (min-width: 768px) {
-  h1, .h1 {
+  h2, .h2 {
     font-size: 1.125rem; } }
 
 @media (min-width: 992px) {
-  h1, .h1 {
+  h2, .h2 {
     font-size: 1.25rem; } }
 
-h2, .h2 {
+h3, .h3 {
   font-size: 0.72rem; }
 
-h2, .h2 {
+h3, .h3 {
   font-size: 0.96rem; }
 
 @media (min-width: 768px) {
-  h2, .h2 {
+  h3, .h3 {
     font-size: 1.08rem; } }
 
 @media (min-width: 992px) {
-  h2, .h2 {
+  h3, .h3 {
     font-size: 1.2rem; } }
-
-h3, .h3 {
-  font-size: 0.69rem; }
-
-h3, .h3 {
-  font-size: 0.92rem; }
-
-@media (min-width: 768px) {
-  h3, .h3 {
-    font-size: 1.035rem; } }
-
-@media (min-width: 992px) {
-  h3, .h3 {
-    font-size: 1.15rem; } }
 
 h4, .h4 {
   font-size: 0.792rem; }
