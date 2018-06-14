@@ -180,6 +180,7 @@
 
 .block-social-media-links {
     margin: 0 auto;
+    padding-bottom: 60px;
     width: 15rem;
 
     .social-media-links--platforms {
@@ -252,7 +253,7 @@
     }
 
     .region-featured-bottom-third {
-        border-top: 1px solid $dark-gray;
+        background-color: $featured-color;
 
         h2 {
             font-size: 1.5rem;

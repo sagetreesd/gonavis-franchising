@@ -7114,6 +7114,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 
 .block-social-media-links {
   margin: 0 auto;
+  padding-bottom: 60px;
   width: 15rem; }
   .block-social-media-links .social-media-links--platforms {
     text-align: center; }
@@ -7169,7 +7170,7 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   margin-bottom: 15px; }
 
 .featured-bottom .region-featured-bottom-third {
-  border-top: 1px solid #333; }
+  background-color: #cbe4f0; }
   .featured-bottom .region-featured-bottom-third h2 {
     font-size: 1.5rem; }
   .featured-bottom .region-featured-bottom-third > .block {
