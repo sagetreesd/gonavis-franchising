@@ -8436,8 +8436,8 @@ body {
   padding: 0 0 1rem 1rem; }
 
 .btn-primary {
-  background-color: #ff9300;
-  border-color: #f08a00;
+  background-color: #ff682c;
+  border-color: #ff5d1d;
   border-radius: 5px;
   color: #fff;
   display: inline-block;
@@ -8445,8 +8445,8 @@ body {
   padding: 15px 30px;
   text-transform: uppercase; }
   .btn-primary:hover {
-    background-color: #f08a00;
-    border-color: #f08a00; }
+    background-color: #ff5d1d;
+    border-color: #ff5d1d; }
 
 .btn-secondary {
   background-color: #3898c6;
