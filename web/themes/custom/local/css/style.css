@@ -7055,21 +7055,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   .path-frontpage .region-featured-bottom-first > div {
     padding: 0; }
 
-.region-featured-bottom-first {
-  justify-content: space-between; }
-  .region-featured-bottom-first .block {
-    padding: 0 30px 30px;
-    margin: 0 auto; }
-    .region-featured-bottom-first .block h2 {
-      text-align: center; }
-    @media screen and (min-width: 768px) {
-      .region-featured-bottom-first .block {
-        margin: 0; }
-        .region-featured-bottom-first .block h2 {
-          text-align: left; }
-        .region-featured-bottom-first .block:last-child h2 {
-          text-align: right; } }
-
 .field--type-entity-reference {
   margin: 0; }
   @media screen and (max-width: 767px) {
@@ -7214,11 +7199,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
     .featured-bottom .block-simple-blockneed-more-information .content div a.email:before {
       content: '\f0e0'; }
 
-.region-featured-bottom-first {
+/* Previous/Next Button blocks. */
+.node--view-mode-next,
+.node--view-mode-previous {
   padding-bottom: 40px; }
-  @media screen and (max-width: 768px) {
-    .region-featured-bottom-first {
-      flex-direction: column-reverse; } }
 
 #main .hero .node__content {
   margin: 0;
@@ -8442,7 +8426,7 @@ body {
   color: #fff;
   display: inline-block;
   font-weight: bold;
-  padding: 15px 30px;
+  padding: 15px 20px;
   text-transform: uppercase; }
   .btn-primary:hover {
     background-color: #ff5d1d;

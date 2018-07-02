@@ -12,8 +12,8 @@ third_party_settings:
     classes: 'col-md-4 float-right'
 id: entityviewcontent_3
 theme: local
-region: featured_bottom_first
-weight: -12
+region: content
+weight: 2
 provider: null
 plugin: 'entity_view:node'
 settings:

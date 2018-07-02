@@ -85,31 +85,6 @@
 
 }
 
-.region-featured-bottom-first {
-    justify-content: space-between;
-
-    .block {
-        padding: 0 30px 30px;
-        margin: 0 auto;
-        
-        h2 {
-            text-align: center;
-        }
-        
-        @media screen and (min-width: 768px) {
-            margin: 0;
-
-            h2 {
-                text-align: left;
-            }
-            
-            &:last-child h2 {
-                text-align: right;
-            }
-        }
-    }
-}
-
 .field--type-entity-reference {
     margin: 0;
 
@@ -309,12 +284,10 @@
     }
 }
 
-.region-featured-bottom-first {
+/* Previous/Next Button blocks. */
+.node--view-mode-next,
+.node--view-mode-previous {
     padding-bottom: 40px;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column-reverse;
-    }
 }
 
 #main .hero {
