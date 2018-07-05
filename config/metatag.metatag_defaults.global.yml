@@ -7,5 +7,7 @@ _core:
 id: global
 label: Global
 tags:
-  canonical_url: '[current-page:url]'
   title: '[current-page:title] | [site:name]'
+  canonical_url: '[current-page:url]'
+  description: 'Discover the freedom of franchise ownership with Navis Pack & Ship. We’re a commercial shipping franchise in the market for custom packaging and shipping services. We specialize in the packing and shipping of large, fragile and valuable items. We’re a unique business-to-business franchise that offers more professional – and personal – freedom.'
+  image_src: 'https://franchise.gonavis.com/sites/default/files/navis-logo.png'
