@@ -7083,7 +7083,8 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 .field--name-field-next a,
 .field--name-field-previous a {
   font-size: 1.5rem;
-  font-weight: normal; }
+  font-weight: normal;
+  white-space: nowrap; }
   .field--name-field-next a:before, .field--name-field-next a:after,
   .field--name-field-previous a:before,
   .field--name-field-previous a:after {
