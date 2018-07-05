@@ -7,5 +7,6 @@ _core:
 id: front
 label: 'Front page'
 tags:
-  canonical_url: '[site:url]'
   shortlink: '[site:url]'
+  canonical_url: '[site:url]'
+  image_src: 'https://franchise.gonavis.com/sites/default/files/navis-logo.png'
