@@ -7217,9 +7217,6 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
 
 .region-featured-bottom-first {
   padding-bottom: 40px; }
-  @media screen and (max-width: 768px) {
-    .region-featured-bottom-first {
-      flex-direction: column-reverse; } }
 
 #main .hero .node__content {
   margin: 0;

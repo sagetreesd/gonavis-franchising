@@ -308,10 +308,6 @@
 
 .region-featured-bottom-first {
     padding-bottom: 40px;
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column-reverse;
-    }
 }
 
 #main .hero {
