@@ -9,7 +9,7 @@ dependencies:
     - local
 third_party_settings:
   block_class:
-    classes: 'col-md-4 float-right'
+    classes: 'col-md-6 float-right'
 id: entityviewcontent_3
 theme: local
 region: featured_bottom_first
