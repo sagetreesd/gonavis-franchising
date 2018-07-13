@@ -6,7 +6,10 @@
 .node__content {
     font-size: $font-size-base;
     margin-top: $spacer;
-    padding: 30px;
+
+    @media screen and (min-width: 769px) {
+        padding: 30px;
+    }
 }
 
 

@@ -6862,8 +6862,10 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
  */
 .node__content {
   font-size: 1rem;
-  margin-top: 1rem;
-  padding: 30px; }
+  margin-top: 1rem; }
+  @media screen and (min-width: 769px) {
+    .node__content {
+      padding: 30px; } }
 
 /* View mode teaser styles. */
 .node--view-mode-teaser {
@@ -7002,7 +7004,11 @@ label[for="edit-i-agree-the-information-contained-is-true-accurate-and-complete-
   margin-top: 10px; }
 
 #content > .section {
-  padding: 0 15px 15px; }
+  padding: 0 5px 15px; }
+  @media screen and (min-width: 769px) {
+    #content > .section {
+      padding-left: 15px;
+      padding-right: 15px; } }
   #content > .section .block h2 {
     font-size: 1.75rem; }
 

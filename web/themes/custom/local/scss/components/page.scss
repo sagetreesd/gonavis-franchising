@@ -9,7 +9,12 @@
 }
 
 #content > .section {
-    padding: 0 15px 15px;
+    padding: 0 5px 15px;
+    @media screen and (min-width: 769px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
 
     .block h2 {
         font-size: 1.75rem;
