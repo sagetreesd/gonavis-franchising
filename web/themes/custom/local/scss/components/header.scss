@@ -5,6 +5,10 @@
     padding: 0;
     width: 100%;
 }
+
+.navbar {
+    font-family: $font-family-local-menu-items;
+}
 .navbar-brand img {
     width: 138px;
 }
@@ -97,7 +101,7 @@
 }
 
 .dropdown-toggle-split {
-    padding: 15px 20px 0 0;
+    padding: 15px 50px 0 0;
 }
 
 .navbar-toggler-icon:after {
@@ -165,7 +169,7 @@
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         &.parent-link {
-            padding: 15px 10px 15px 25px;
+            padding: 15px 10px 15px 50px;
         }
     }
     .dropdown-menu.column-split {
