@@ -79,7 +79,8 @@
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 15px 50px;
+    padding: 16px 50px;
+    font-weight: 300;
 }
 
 #navbar-main {
@@ -169,7 +170,7 @@
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         &.parent-link {
-            padding: 15px 10px 15px 50px;
+            padding: 16px 10px 16px 50px;
         }
     }
     .dropdown-menu.column-split {
